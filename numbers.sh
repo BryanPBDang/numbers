@@ -6,7 +6,7 @@ echo "Enter a positive integer"
 read -r number
 
 N=1
-while ["$N" -le "$number"]
+while [ "$N" -le "$number" ]
 do
 
       if $((N%2)) -eq 0
@@ -16,7 +16,7 @@ do
         echo "Odd"
       fi
       
-      N=$ [$N+1]
+      N=$[$N+1]
 done
 ~
 ~
