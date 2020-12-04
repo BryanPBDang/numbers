@@ -18,7 +18,3 @@ do
       
       N=$((N+1))
 done
-~
-~
-~
-"numbers.sh"
